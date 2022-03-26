@@ -28,6 +28,7 @@ int cmp(const char* a, const char* b)
 }
 int main()
 {
+    int i='10';
     char s[501];
     while (scanf("%s", s) != EOF)
     {
@@ -58,10 +59,10 @@ int main()
 }
 
 
-int cmp(const int* a, const int* b)
-{
-    return *a - *b;
-}
+//int cmp(const int* a, const int* b)
+//{
+//    return *a - *b;
+//}
 
 int majorityElement(int* nums, int numsSize)
 {
